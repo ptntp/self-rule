@@ -1,2 +1,2 @@
 # self-rule
-## 僅供自用
+## 僅供 Surge 自用
