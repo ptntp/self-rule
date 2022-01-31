@@ -1,4 +1,10 @@
+# Ptt
 DOMAIN-SUFFIX,ptt.cc
 DOMAIN-SUFFIX,ptt2.cc
+
+# Protonmail
+DOMAIN-SUFFIX,pm.me
 DOMAIN-SUFFIX,protonmail.ch
 DOMAIN-SUFFIX,protonmail.com
+DOMAIN-SUFFIX,protonstatus.com
+
