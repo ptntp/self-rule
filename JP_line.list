@@ -1,10 +1,13 @@
-# Ptt
+# ptt
 DOMAIN-SUFFIX,ptt.cc
 DOMAIN-SUFFIX,ptt2.cc
 
-# Protonmail
+# protonmail
 DOMAIN-SUFFIX,pm.me
 DOMAIN-SUFFIX,protonmail.ch
 DOMAIN-SUFFIX,protonmail.com
 DOMAIN-SUFFIX,protonstatus.com
 
+# instagram
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagram.com
