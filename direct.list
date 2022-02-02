@@ -1,6 +1,5 @@
 DOMAIN-SUFFIX,tmnewa.com.tw
 DOMAIN-SUFFIX,eslite.com
-DOMAIN-SUFFIX,cdc.gov.tw
 DOMAIN-SUFFIX,manhuagui.com
 DOMAIN-SUFFIX,charge-spot.com
 DOMAIN-SUFFIX,api.revenuecat.com
@@ -14,6 +13,10 @@ DOMAIN-SUFFIX,elpass.app
 DOMAIN-SUFFIX,moze.app
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,duck.com
+
+# TW GOV
+DOMAIN-SUFFIX,cdc.gov.tw
+DOMAIN-SUFFIX,nat.gov.tw
 
 # NAME: Dropbox
 DOMAIN-SUFFIX,db.tt
