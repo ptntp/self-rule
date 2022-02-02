@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,duck.com
 # TW GOV
 DOMAIN-SUFFIX,cdc.gov.tw
 DOMAIN-SUFFIX,nat.gov.tw
+DOMAIN-SUFFIX,moi.gov.tw
 
 # NAME: Dropbox
 DOMAIN-SUFFIX,db.tt
