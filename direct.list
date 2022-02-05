@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,elpass.app
 DOMAIN-SUFFIX,moze.app
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,duck.com
+DOMAIN-KEYWORD,atome
 
 # TW GOV
 DOMAIN-SUFFIX,cdc.gov.tw
