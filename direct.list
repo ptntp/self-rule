@@ -20,7 +20,7 @@ DOMAIN-SUFFIX,cdc.gov.tw
 DOMAIN-SUFFIX,nat.gov.tw
 DOMAIN-SUFFIX,moi.gov.tw
 
-# NAME: Dropbox
+# Dropbox
 DOMAIN-SUFFIX,db.tt
 DOMAIN-SUFFIX,dropbox-dns.com
 DOMAIN-SUFFIX,dropbox.com
@@ -39,7 +39,7 @@ DOMAIN-SUFFIX,dropboxusercontent.com
 DOMAIN-SUFFIX,getdropbox.com
 DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com
 
-# NAME: GitHub
+# GitHub
 DOMAIN-SUFFIX,atom.io
 DOMAIN-SUFFIX,dependabot.com
 DOMAIN-SUFFIX,ghcr.io
