@@ -8,10 +8,6 @@ DOMAIN-SUFFIX,protonmail.ch
 DOMAIN-SUFFIX,protonmail.com
 DOMAIN-SUFFIX,protonstatus.com
 
-# instagram
-#DOMAIN-SUFFIX,cdninstagram.com
-#DOMAIN-SUFFIX,instagram.com
-
 # spark mail
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,firebaseio.com
