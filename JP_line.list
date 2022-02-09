@@ -1,6 +1,7 @@
 # ptt
 DOMAIN-SUFFIX,ptt.cc
 DOMAIN-SUFFIX,ptt2.cc
+DOMAIN-SUFFIX,disp.cc
 
 # protonmail
 DOMAIN-SUFFIX,pm.me
