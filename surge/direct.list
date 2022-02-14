@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,duck.com
 DOMAIN-KEYWORD,atome
 DOMAIN-KEYWORD,softorino
+DOMAIN-KEYWORD,plex
 
 # Twitter
 DOMAIN-SUFFIX,tapbots.com
