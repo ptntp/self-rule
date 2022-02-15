@@ -1,4 +1,16 @@
 DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,360.com
+DOMAIN-SUFFIX,360.cn
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,chinatimes.com
+DOMAIN-SUFFIX,ctitv.com.tw
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,iqiyi.com
 
 # Fuck China
 DOMAIN-SUFFIX,gov.cn
