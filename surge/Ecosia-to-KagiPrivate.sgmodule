@@ -2,8 +2,8 @@
 #!desc=把 Ecosia 搜尋轉址到 kagi.com(Private)
 
 [URL Rewrite]
-^https://ac\.ecosia\.org\/autocomplete https://kagi.com/autocomplete?token=FwBAojHLJwI.mlJjZkqhOa4ixEiV9AN-4E5LyOqHfgMesQ1vKEpwa1U&q=%s 307
-^https:\/\/www\.ecosia\.org\/search https://kagi.com/search?token=FwBAojHLJwI.mlJjZkqhOa4ixEiV9AN-4E5LyOqHfgMesQ1vKEpwa1U&q=%s 307
+^https://ac\.ecosia\.org\/autocomplete https://kagi.com/autocomplete?token=FwBAojHLJwI.mlJjZkqhOa4ixEiV9AN-4E5LyOqHfgMesQ1vKEpwa1U 307
+^https:\/\/www\.ecosia\.org\/search https://kagi.com/search?token=FwBAojHLJwI.mlJjZkqhOa4ixEiV9AN-4E5LyOqHfgMesQ1vKEpwa1U 307
 
 [MITM]
 hostname = %APPEND% ac.ecosia.org, www.ecosia.org
