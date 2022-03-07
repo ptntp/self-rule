@@ -1,5 +1,6 @@
 #!name=Ecosia to Kagi
 #!desc=把 Ecosia 搜尋轉址到 kagi.com
+#感謝 @jkgtw @hirakujira 大大教學
 
 [URL Rewrite]
 ^https://ac\.ecosia\.org\/autocomplete https://kagi.com/api/autosuggest 307
