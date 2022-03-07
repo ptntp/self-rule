@@ -2,7 +2,7 @@
 #!desc=把 Ecosia 搜尋轉址到 kagi.com
 
 [URL Rewrite]
-^https://ac\.ecosia\.org\/autocomplete https://kagi.com/autocomplete 307
+^https://ac\.ecosia\.org\/autocomplete https://kagi.com/api/autosuggest 307
 ^https:\/\/www\.ecosia\.org\/search https://kagi.com/search 307
 
 [MITM]
