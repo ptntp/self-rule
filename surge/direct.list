@@ -23,10 +23,10 @@ DOMAIN-KEYWORD,plex
 DOMAIN-SUFFIX,opensea.io
 
 # 港都狼窩專用
-DOMAIN,wolflsi.pixnet.net
 DOMAIN-SUFFIX,pimg.tw
 DOMAIN-SUFFIX,pixfs.net
 DOMAIN-SUFFIX,pixinsight.com.tw
+DOMAIN-SUFFIX,pixplug.in
 
 # Twitter
 DOMAIN-SUFFIX,tapbots.com
