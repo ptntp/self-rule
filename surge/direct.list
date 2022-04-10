@@ -22,6 +22,10 @@ DOMAIN-KEYWORD,softorino
 DOMAIN-KEYWORD,plex
 DOMAIN-SUFFIX,opensea.io
 
+# 港都狼窩專用
+DOMAIN-SUFFIX,wolflsi.pixnet.net
+DOMAIN-SUFFIX,pimg.tw
+
 # Twitter
 DOMAIN-SUFFIX,tapbots.com
 DOMAIN-SUFFIX,periscope.tv
