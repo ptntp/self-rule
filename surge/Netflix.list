@@ -1,5 +1,11 @@
-DOMAIN-KEYWORD,netflix
-DOMAIN-KEYWORD,nflx
+USER-AGENT,Argo*
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-KEYWORD,netflixdnstest
+DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.apiproxy-
-DOMAIN-KEYWORD,dualstack.ichnaea-web-
-DOMAIN-SUFFIX,us-west-2.amazonaws.com
