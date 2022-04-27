@@ -2,7 +2,7 @@
 #!desc=串流媒體跨區解鎖測試
 
 [Panel]
-stream_check = script-name=stream_check, title="串流媒體跨區解鎖測試", update-interval=1
+streamcheck = script-name=streamcheck, title="串流媒體跨區解鎖測試", update-interval=1
 
 [Script]
-stream_check = type=generic,script-path=https://raw.githubusercontent.com/ptntp/self-rule/main/Panel/stream_check.js
+streamcheck = type=generic,script-path=https://raw.githubusercontent.com/ptntp/self-rule/main/Panel/streamcheck.js
