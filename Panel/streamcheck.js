@@ -99,7 +99,7 @@ panel_result['content'] = content
         }
       })
       .catch((error) => {
-        youtube_check_result += '檢查失敗，請刷新面板'
+        youtube_check_result += '檢查失敗，請重新整理'
       })
   
     return youtube_check_result
@@ -170,7 +170,7 @@ panel_result['content'] = content
           netflix_check_result += '該節點不支援解鎖'
           return
         }
-        netflix_check_result += '檢查失敗，請刷新面板'
+        netflix_check_result += '檢查失敗，請重新整理'
       })
   
     return netflix_check_result
