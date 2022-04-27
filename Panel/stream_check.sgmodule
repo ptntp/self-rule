@@ -1,0 +1,9 @@
+
+#!name=串流媒體跨區檢查
+#!desc=串流媒體跨區解鎖測試
+
+[Panel]
+stream_check = script-name=stream_heck, title="串流媒體跨區解鎖測試", update-interval=1
+
+[Script]
+stream_check = type=generic,script-path=https://raw.githubusercontent.com/Nebulosa-Cat/Surge/main/Panel/YouTube-Premium-Test/premiumCheck.js, timeout=30
