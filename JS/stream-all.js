@@ -10,9 +10,9 @@ const STATUS_COMING = 2
 const STATUS_AVAILABLE = 1
 // 不支援解鎖
 const STATUS_NOT_AVAILABLE = 0
-// 检查超時
+// 檢查超時
 const STATUS_TIMEOUT = -1
-// 检查異常
+// 檢查異常
 const STATUS_ERROR = -2
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36'
