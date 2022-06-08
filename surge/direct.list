@@ -25,6 +25,16 @@ DOMAIN-KEYWORD,plex
 DOMAIN-SUFFIX,opensea.io
 DOMAIN-SUFFIX,unpkg.com
 
+# 台灣垃圾車
+DOMAIN-SUFFIX,dep.gov.taipei
+DOMAIN-SUFFIX,tainan.gov.tw
+DOMAIN-SUFFIX,kcg.gov.tw
+DOMAIN-SUFFIX,ksepb.gov.tw
+DOMAIN-SUFFIX,e-land.gov.tw
+DOMAIN-SUFFIX,tyemid.gov.tw
+DOMAIN-SUFFIX,taichung.gov.tw
+DOMAIN-SUFFIX,hccepb.gov.tw
+
 # Twitter
 DOMAIN-SUFFIX,tapbots.com
 DOMAIN-SUFFIX,periscope.tv
