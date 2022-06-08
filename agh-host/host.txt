@@ -1,0 +1,16 @@
+! 白清單
+@@||*.shopback.com.tw^
+@@||*.smugmug.com^
+@@||*.gandi.net^
+@@||*.sspai.com^
+@@||*.twitter.com^
+@@||*.tmnewa.com.tw^
+@@||mowd.tw^
+@@||unpkg.com^
+
+! 阻擋
+||*.dad-api.dcard.tw^
+||*.xlate.dcard.tw^
+||*.xiaohongshu.com^
+||*.douyin.com^
+||*.tiktok.com^
