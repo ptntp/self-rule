@@ -6,7 +6,7 @@
 @@||*.twitter.com^
 @@||*.tmnewa.com.tw^
 @@||mowd.tw^
-@@||unpkg.com^
+@@||unpkg.com^$important
 
 ! 阻擋
 ||*.dad-api.dcard.tw^
