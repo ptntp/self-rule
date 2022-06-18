@@ -7,6 +7,7 @@
 @@||*.tmnewa.com.tw^
 @@||mowd.tw^
 @@||unpkg.com^$important
+@@||ctbcbank.com^
 
 ! 阻擋
 ||*.dad-api.dcard.tw^
