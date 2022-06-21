@@ -1,5 +1,6 @@
 ! 白清單
 @@||shopback.com.tw^
+@@||shopback.com^
 @@||smugmug.com^
 @@||gandi.net^
 @@||sspai.com^
