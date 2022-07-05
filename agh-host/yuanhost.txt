@@ -11,6 +11,7 @@
 @@||unpkg.com^$important
 @@||ctbcbank.com^
 @@||recaptcha.net
+@@||dropbox.com^$important
 
 ! 阻擋
 ||dad-api.dcard.tw^
