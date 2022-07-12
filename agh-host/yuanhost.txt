@@ -19,3 +19,4 @@
 ||xiaohongshu.com^
 ||douyin.com^
 ||tiktok.com^
+||yijiays.com^$important
