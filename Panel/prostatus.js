@@ -14,9 +14,11 @@ let icon_s = mitm_status.enabled&&rewrite_status.enabled&&scripting_status.enabl
 if ($trigger == "button") {
 	await httpAPI("/v1/profiles/reload");
 	$notification.post("配置重讀","配置重讀成功","")
+
+//授權日為手動輸入
 };
 $done({
-    title:"𝗦𝗨𝗥𝗚𝗘ᴾᴿᴼ 2022-08-21 \n  已啟動"+startTime,
+    title:"𝗦𝗨𝗥𝗚𝗘ᴾᴿᴼ 授權到期日：2022-08-21 \n 開關已啟動"+startTime,
     content:"Mitm:"+icon_status(mitm_status.enabled)+"  Rewrite:"+icon_status(rewrite_status.enabled)+"  Scripting:"+icon_status(scripting_status.enabled),
     icon: icon_s?"checkmark.seal":"exclamationmark.triangle",
    "icon-color":icon_s?"#16A951":"#FF7500"
