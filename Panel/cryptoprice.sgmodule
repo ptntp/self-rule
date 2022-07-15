@@ -2,7 +2,7 @@
 #!desc=從幣安 API 獲取最新價格
 
 [Panel]
-BianceTickerPanel=title=" ",content=" ", style=info, script-name=cryptoprice.js, update-interval=1
+cryptoprice = script-name=cryptoprice, title="最新價格", update-interval=1
 
 [Script]
 cryptoprice = type=generic, script-path=https://raw.githubusercontent.com/ptntp/self-rule/main/Panel/cryptoprice.js
