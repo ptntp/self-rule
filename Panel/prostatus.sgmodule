@@ -2,7 +2,7 @@
 #!desc=Surge 狀態
 
 [Panel]
-prostatus = script-name=prostatus, title="Pro 狀態", update-interval=86400
+prostatus = script-name=prostatus, title="Pro 狀態", update-interval=1
 
 [Script]
 prostatus = type=generic,script-path=https://raw.githubusercontent.com/ptntp/self-rule/main/Panel/prostatus.js
