@@ -18,7 +18,7 @@ if ($trigger == "button") {
 //Scripting
 };
 $done({
-    title:"𝗦𝗨𝗥𝗚𝗘ᴾᴿᴼ 授權到期日：2022-08-21\n𝗦𝗨𝗥𝗚𝗘　　　已啟動："+startTime, //授權日為手動輸入
+    title:"𝗦𝗨𝗥𝗚𝗘ᴾᴿᴼ 授權到期日：2022-08-21\n𝗦𝗨𝗥𝗚𝗘　　　　已啟動："+startTime, //授權日為手動輸入
     content:"MitM："+icon_status(mitm_status.enabled)+"  覆寫："+icon_status(rewrite_status.enabled)+"  腳本："+icon_status(scripting_status.enabled),
     icon: icon_s?"checkmark.seal":"exclamationmark.triangle",
    "icon-color":icon_s?"#16A951":"#FF7500"
