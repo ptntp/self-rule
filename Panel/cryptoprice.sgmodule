@@ -2,7 +2,7 @@
 #!desc=從幣安 API 獲取最新價格
 
 [Panel]
-cryptoprice = script-name=streamcheck, title="加密貨幣價格", update-interval=1
+BianceTickerPanel=title=" ",content=" ", style=info, script-name=cryptoprice.js, update-interval=1
 
 [Script]
-cryptoprice = type=info,script-path=https://raw.githubusercontent.com/ptntp/self-rule/main/Panel/cryptoprice.js
+cryptoprice = type=generic, script-path=https://raw.githubusercontent.com/ptntp/self-rule/main/Panel/cryptoprice.js
