@@ -12,6 +12,7 @@
 @@||ctbcbank.com^
 @@||recaptcha.net
 @@||dropbox.com^$important
+@@||plex.tv
 
 ! 阻擋
 ||dad-api.dcard.tw^
