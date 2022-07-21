@@ -1,8 +1,0 @@
-#!name=加密貨幣價格
-#!desc=從幣安 API 獲取最新價格
-
-[Panel]
-cryptoprice = script-name=cryptoprice, title="最新價格", update-interval=1
-
-[Script]
-cryptoprice = type=generic, script-path=https://raw.githubusercontent.com/ptntp/self-rule/main/Panel/cryptoprice.js
