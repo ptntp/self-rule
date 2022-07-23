@@ -1,5 +1,5 @@
-// 取用自 https://github.com/Rabbit-Spec/Surge/blob/Master/Panel/Stream-All/Stream-All.js
-
+// 取用自 https://github.com/Rabbit-Spec/Surge/blob/Master/Panel/Stream-All/Stream-All.js 非常感謝
+// 取用自 https://gist.github.com/Hyseen/729fc4c3ac28c3f2e7c4a832d81780f3 非常感謝
 const REQUEST_HEADERS = {
     'User-Agent':
       'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36',
