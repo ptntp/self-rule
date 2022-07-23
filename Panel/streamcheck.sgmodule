@@ -7,4 +7,4 @@ streamcheck = script-name=streamcheck, title="串流媒體跨區解鎖測試", u
 [Script]
 streamcheck = type=generic,script-path= https://raw.githubusercontent.com/LucaLin233/Luca_Conf/main/Surge/JS/stream_check.js
 
-# https://raw.githubusercontent.com/ptntp/self-rule/main/Panel/streamcheck.js
+#ttps://raw.githubusercontent.com/ptntp/self-rule/main/Panel/streamcheck.js
