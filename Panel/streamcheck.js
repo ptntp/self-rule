@@ -1,4 +1,4 @@
-// 取用自 https://gist.githubusercontent.com/Hyseen/729fc4c3ac28c3f2e7c4a832d81780f3/raw/8549d31b37a418d06057ead7ba3acf0047a47ec6/disney_check.js
+// 取用自 https://github.com/Rabbit-Spec/Surge/blob/Master/Panel/Stream-All/Stream-All.js
 
 const REQUEST_HEADERS = {
     'User-Agent':
