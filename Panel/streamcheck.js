@@ -1,4 +1,4 @@
-// 取用自 https://raw.githubusercontent.com/LucaLin233/Luca_Conf/main/Surge/JS/stream-all.js 非常感
+// 取用自 https://raw.githubusercontent.com/LucaLin233/Luca_Conf/main/Surge/JS/stream-all.js 非常感謝
 // 取用自 https://github.com/Rabbit-Spec/Surge/blob/Master/Panel/Stream-All/Stream-All.js 非常感謝
 // 取用自 https://gist.github.com/Hyseen/729fc4c3ac28c3f2e7c4a832d81780f3 非常感謝
 
