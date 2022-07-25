@@ -3,7 +3,7 @@
 
 [博客來簽到]( https://raw.githubusercontent.com/jkgtw/Surge/master/Modules/BooksDailyCheckin.sgmodule )  
 [Boxjs]( https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule )  
-[Ecosia to Kagi]( https://raw.githubusercontent.com/ptntp/self-rule/main/Panel/Ecosia-to-Kagi.sgmodule )
+[Ecosia to Kagi]( https://raw.githubusercontent.com/ptntp/self-rule/main/Panel/Ecosia-to-Kagi.sgmodule )  
 [Facebook SDK block]( https://kinta.ma/surge/facebook_block_sdk.sgmodule )  
 [Flush DNS]( https://raw.githubusercontent.com/Nebulosa-Cat/Surge/main/Panel/Flush-DNS/Flush-DNS.sgmodule )  
 [Futa Filter]( https://raw.githubusercontent.com/FutaGuard/FutaFilter/master/Surge/filters.txt )  
