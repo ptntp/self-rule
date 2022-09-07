@@ -21,3 +21,5 @@
 ||douyin.com^
 ||tiktok.com^
 ||yijiays.com^
+||111.241.196.221^
+||154.53.61.128^
