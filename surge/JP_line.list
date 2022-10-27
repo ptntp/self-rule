@@ -8,12 +8,6 @@ DOMAIN-SUFFIX,ptt.cc
 DOMAIN-SUFFIX,ptt2.cc
 DOMAIN-SUFFIX,disp.cc
 
-# protonmail
-DOMAIN-SUFFIX,pm.me
-DOMAIN-SUFFIX,protonmail.ch
-DOMAIN-SUFFIX,protonmail.com
-DOMAIN-SUFFIX,protonstatus.com
-
 # spark mail
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,firebaseio.com
