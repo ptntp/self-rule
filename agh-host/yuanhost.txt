@@ -13,6 +13,7 @@
 @@||recaptcha.net
 @@||dropbox.com^$important
 @@||plex.tv
+@@||ozan.com
 
 ! 阻擋
 ||dad-api.dcard.tw^
@@ -23,3 +24,4 @@
 ||yijiays.com^
 ||111.241.196.221^
 ||154.53.61.128^
+||appsettings.apalon.com
