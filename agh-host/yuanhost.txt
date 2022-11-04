@@ -13,7 +13,7 @@
 @@||recaptcha.net
 @@||dropbox.com^$important
 @@||plex.tv
-@@||ozan.com
+@@||ozan.com^$important
 
 ! 阻擋
 ||dad-api.dcard.tw^
