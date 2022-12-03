@@ -26,3 +26,4 @@
 ||111.241.196.221^
 ||154.53.61.128^
 ||appsettings.apalon.com
+||thenewslens.com^
