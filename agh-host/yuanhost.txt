@@ -7,6 +7,7 @@
 @@||sspai.com^
 @@||twitter.com^
 @@||tmnewa.com.tw^
+@@||tixcraft.com^
 @@||mowd.tw^
 @@||unpkg.com^$important
 @@||ctbcbank.com^
