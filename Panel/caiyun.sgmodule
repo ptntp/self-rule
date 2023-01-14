@@ -1,0 +1,13 @@
+#!name=Caiyun
+#!desc=一个Luca收集的APP_JS模块
+#!system=ios
+
+[General]
+skip-proxy = %APPEND% iosapps.itunes.apple.com
+
+[Script]
+# > 彩云天气 SVIP (biz.caiyunapp.com)
+彩云天气 SVIP = type=http-response, pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user), requires-body=1, max-size=-1, script-path=https://raw.githubusercontent.com/chiupam/surge/main/scripts/unblock/ColorfulClouds_SVIP.js
+
+[MITM]
+hostname = %APPEND% biz.caiyunapp.com
