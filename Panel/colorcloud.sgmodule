@@ -5,8 +5,8 @@
 #!system=ios
 
 [Script]
-# 彩云天气 SVIP (biz.caiyunapp.com)
-彩云天气 SVIP = type=http-response, pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user), requires-body=1, max-size=-1, script-path=https://raw.githubusercontent.com/ptntp/self-rule/main/Panel/colorcloud.js, script-update-interval=0, timeout=60
+# colorcloud SVIP (biz.caiyunapp.com)
+colorcloud SVIP = type=http-response, pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user), requires-body=1, max-size=-1, script-path=https://raw.githubusercontent.com/ptntp/self-rule/main/Panel/colorcloud.js, script-update-interval=0, timeout=60
 
 [MITM]
 hostname = %APPEND% biz.caiyunapp.com
