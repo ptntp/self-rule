@@ -9,7 +9,7 @@ hostname = %APPEND% biz.caiyunapp.com
 
 */
 
-const SCRIPT_NAME = '彩云天气';
+const SCRIPT_NAME = 'colorcloud';
 const USER_REGEX = /https?:\/\/biz\.caiyunapp\.com\/v2\/user/;
 const RIGHTS_REGEX = /https?:\/\/biz\.caiyunapp\.com\/membership_rights/;
 const RESULT = {
