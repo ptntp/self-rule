@@ -16,6 +16,8 @@
 @@||plex.tv
 @@||ozan.com^$important
 @@||misskey.io^
+@@||deepl.com^$important
+@@||nya.one^$important
 
 ! 阻擋
 ||dad-api.dcard.tw^
