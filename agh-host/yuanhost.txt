@@ -30,3 +30,5 @@
 ||154.53.61.128^
 ||appsettings.apalon.com
 ||thenewslens.com^
+||fengkongcloud.com
+||xhscdn.com
