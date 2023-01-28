@@ -22,13 +22,28 @@
 ! 阻擋
 ||dad-api.dcard.tw^
 ||xlate.dcard.tw^
-||xiaohongshu.com^
-||douyin.com^
+
 ||tiktok.com^
 ||yijiays.com^
 ||111.241.196.221^
 ||154.53.61.128^
 ||appsettings.apalon.com
 ||thenewslens.com^
+
+# 小紅書
+||xiaohongshu.com^
 ||fengkongcloud.com
 ||xhscdn.com
+
+# 抖音
+||amemv.com
+||douyincdn.com
+||douyinpic.com
+||douyinstatic.com
+||douyinvod.com
+||idouyinvod.com
+||ixigua.com
+||ixiguavideo.com
+||pstatp.com
+||snssdk.com
+||toutiao.com
