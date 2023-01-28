@@ -29,6 +29,11 @@ DOMAIN-SUFFIX,thenewslens.com
 # Fuck China
 DOMAIN-SUFFIX,gov.cn
 
+# 小紅書
+DOMAIN-SUFFIX,fengkongcloud.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xiaohongshu.com
+
 # tiktok
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,byteoversea.com
