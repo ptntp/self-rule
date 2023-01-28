@@ -1,8 +1,5 @@
 DOMAIN-SUFFIX,sakura-checker.jp
 
-# deepl
-DOMAIN-SUFFIX,deepl.com
-
 # ptt
 DOMAIN-SUFFIX,ptt.cc
 DOMAIN-SUFFIX,ptt2.cc
