@@ -29,6 +29,7 @@
 ||154.53.61.128^
 ||appsettings.apalon.com
 ||thenewslens.com^
+||jcolor.com.tw^
 
 # 小紅書
 ||xiaohongshu.com^
