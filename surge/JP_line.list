@@ -13,7 +13,7 @@ DOMAIN-SUFFIX,readdle.com
 DOMAIN-SUFFIX,smartmailcloud.com
 
 # youtube
-DOMAIN,youtubei.googleapis.com
+/DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
 DOMAIN-SUFFIX,.youtube
 DOMAIN-SUFFIX,ggpht.cn
@@ -194,4 +194,4 @@ IP-CIDR,216.73.80.0/20,no-resolve
 IP-CIDR6,2620:120:e000::/40,no-resolve
 USER-AGENT,*youtube*
 USER-AGENT,YouTube*
-USER-AGENT,com.google.ios.youtube*
+USER-AGENT,com.google.ios.youtube*/
