@@ -18,6 +18,7 @@
 @@||misskey.io^
 @@||deepl.com^$important
 @@||nya.one^$important
+@@||openai.com^$important
 
 ! 阻擋
 ||dad-api.dcard.tw^
