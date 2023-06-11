@@ -19,6 +19,7 @@
 @@||deepl.com^$important
 @@||nya.one^$important
 @@||openai.com^$important
+@@||lemmy.ml^
 
 ! 阻擋
 ||dad-api.dcard.tw^
