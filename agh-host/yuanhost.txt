@@ -20,6 +20,7 @@
 @@||nya.one^$important
 @@||openai.com^$important
 @@||lemmy.ml^
+@@||showtimes.com.tw^
 
 ! 阻擋
 ||dad-api.dcard.tw^
