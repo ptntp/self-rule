@@ -1,5 +1,6 @@
 ! 白清單
 @@||shopback.com.tw^
+@@||giffgaff.com^
 @@||shopback.com^
 @@||shopback.sg^
 @@||smugmug.com^
