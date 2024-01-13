@@ -36,6 +36,7 @@ DOMAIN-SUFFIX,misskey.io
 DOMAIN-SUFFIX,nya.one
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,showtimes.com.tw
+DOMAIN-SUFFIX,giffgaff.com^
 
 # 台灣垃圾車
 DOMAIN-SUFFIX,dep.gov.taipei
