@@ -1,8 +1,4 @@
 ! 白清單
-@@||sudo.host^
-@@||futa.gg^
-@@||futa.app^
-@@||dcone.app^
 @@||shopback.com.tw^
 @@||giffgaff.com^
 @@||shopback.com^
