@@ -1,4 +1,12 @@
 ! 白清單
+# DC 服務專用
+@@||sudo.host
+@@||futa.gg
+@@||futa.app
+@@||dcone.app
+@@||u8n.io
+
+# 其他自用
 @@||shopback.com.tw^
 @@||giffgaff.com^
 @@||shopback.com^
