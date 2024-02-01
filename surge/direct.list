@@ -1,3 +1,10 @@
+# DC 服務專用
+DOMAIN-SUFFIX,sudo.host
+DOMAIN-SUFFIX,futa.gg
+DOMAIN-SUFFIX,futa.app
+DOMAIN-SUFFIX,dcone.app
+DOMAIN-SUFFIX,u8n.io
+
 DOMAIN-SUFFIX,tmnewa.com.tw
 DOMAIN-SUFFIX,trplus.com.tw
 DOMAIN-SUFFIX,chtapps.com
