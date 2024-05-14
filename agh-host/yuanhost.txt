@@ -35,6 +35,13 @@
 ||dad-api.dcard.tw^
 ||xlate.dcard.tw^
 
+# ESign
+||yyyue.xyz^
+||api.nuosike.com^
+||qq.com^
+||umengcloud.com^
+||umeng.com^
+
 ||tiktok.com^
 ||yijiays.com^
 ||111.241.196.221^
