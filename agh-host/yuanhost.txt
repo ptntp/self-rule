@@ -36,8 +36,8 @@
 ||xlate.dcard.tw^
 
 # ESign
-||yyyue.xyz^
-||api.nuosike.com^
+# ||yyyue.xyz^
+# ||api.nuosike.com^
 ||qq.com^
 ||umengcloud.com^
 ||umeng.com^
