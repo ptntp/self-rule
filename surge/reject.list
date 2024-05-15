@@ -17,8 +17,8 @@ DOMAIN-SUFFIX,thenewslens.com
 DOMAIN-SUFFIX,jcolor.com.tw
 
 # ESign
-DOMAIN-SUFFIX,yyyue.xyz
-DOMAIN-SUFFIX,api.nuosike.com
+# DOMAIN-SUFFIX,yyyue.xyz
+# DOMAIN-SUFFIX,api.nuosike.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,umeng.com
