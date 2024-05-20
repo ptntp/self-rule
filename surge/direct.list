@@ -83,6 +83,8 @@ IP-CIDR,69.195.160.0/19
 DOMAIN-SUFFIX,cdc.gov.tw
 DOMAIN-SUFFIX,nat.gov.tw
 DOMAIN-SUFFIX,moi.gov.tw
+DOMAIN-SUFFIX,taipower.com.tw^
+DOMAIN-SUFFIX,taipower.info
 
 # NAME: Dropbox
 DOMAIN-SUFFIX,db.tt
