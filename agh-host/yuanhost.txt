@@ -30,6 +30,8 @@
 @@||openai.com^$important
 @@||lemmy.ml^
 @@||showtimes.com.tw^
+@@||taipower.com.tw^
+@@||taipower.info^
 
 ! 阻擋
 ||dad-api.dcard.tw^
