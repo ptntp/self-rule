@@ -41,8 +41,8 @@
 # ||yyyue.xyz^
 # ||api.nuosike.com^
 ||qq.com^
-||umengcloud.com^
-||umeng.com^
+# ||umengcloud.com^
+# ||umeng.com^
 
 ||tiktok.com^
 ||yijiays.com^
