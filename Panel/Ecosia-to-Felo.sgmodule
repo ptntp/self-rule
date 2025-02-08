@@ -1,0 +1,10 @@
+#!name=Ecosia to Felo
+#!desc=將 Ecosia 搜尋轉址到 Felo.ai
+#感謝 @jkgtw @hirakujira 大大教學
+
+[URL Rewrite]
+^https://ac\.ecosia\.org\/autocomplete https://felo.ai/api/autosuggest 307
+^https:\/\/www\.ecosia\.org\/search https://felo.ai/search 307
+
+[MITM]
+hostname = %APPEND% ac.ecosia.org, www.ecosia.org
