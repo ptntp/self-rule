@@ -19,6 +19,8 @@
 @@||tmnewa.com.tw^
 @@||tixcraft.com^
 @@||mowd.tw^
+@@||moze.app^
+@@||syncstaging.moze.app^
 @@||unpkg.com^$important
 @@||ctbcbank.com^
 @@||recaptcha.net
