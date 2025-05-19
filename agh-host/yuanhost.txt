@@ -38,6 +38,7 @@
 ! 阻擋
 ||dad-api.dcard.tw^
 ||xlate.dcard.tw^
+||apps.apple.com/app/id1235601864^
 
 # ESign
 # ||yyyue.xyz^
