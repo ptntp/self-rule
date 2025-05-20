@@ -34,6 +34,7 @@
 @@||showtimes.com.tw^
 @@||taipower.com.tw^
 @@||taipower.info^
+@@||porkbun.com^
 
 ! 阻擋
 ||dad-api.dcard.tw^
