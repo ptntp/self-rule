@@ -42,6 +42,7 @@ DOMAIN-SUFFIX,nya.one
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,showtimes.com.tw
 DOMAIN-SUFFIX,giffgaff.com^
+DOMAIN-SUFFIX,porkbun.com^
 
 # 台灣垃圾車
 DOMAIN-SUFFIX,dep.gov.taipei
