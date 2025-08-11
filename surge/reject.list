@@ -12,7 +12,7 @@ DOMAIN-SUFFIX,chinatimes.com
 DOMAIN-SUFFIX,ctitv.com.tw
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,moptt.tw
+# DOMAIN-SUFFIX,moptt.tw
 DOMAIN-SUFFIX,yijiays.com
 DOMAIN-SUFFIX,thenewslens.com
 DOMAIN-SUFFIX,jcolor.com.tw
