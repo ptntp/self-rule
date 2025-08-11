@@ -6,9 +6,18 @@
 @@||dcone.app
 @@||u8n.io
 
-
 # 其他自用
+@@||shopback.go2cloud.org^$important
 @@||shopback.com.tw^
+
+@@||showtimes.com.tw^$important
+@@||ts.line-apps.com^$important
+@@||line.me^$important
+@@||ad.line-scdn.net^$client='10.10.10.13',important
+@@||formula1.com^$important
+@@||moptt.tw^$important
+
+
 @@||giffgaff.com^
 @@||shopback.com^
 @@||shopback.sg^
@@ -31,7 +40,6 @@
 @@||nya.one^$important
 @@||openai.com^$important
 @@||lemmy.ml^
-@@||showtimes.com.tw^
 @@||taipower.com.tw^
 @@||taipower.info^
 @@||porkbun.com^
@@ -39,15 +47,15 @@
 ! 阻擋
 ||dad-api.dcard.tw^
 ||xlate.dcard.tw^
-||apps.apple.com/app/id1235601864^
+||apps.apple.com/app/id1235601864^$important
 
 # ESign
 # ||yyyue.xyz^
 # ||api.nuosike.com^
-||qq.com^
 # ||umengcloud.com^
 # ||umeng.com^
 
+||qq.com^
 ||tiktok.com^
 ||yijiays.com^
 ||111.241.196.221^
