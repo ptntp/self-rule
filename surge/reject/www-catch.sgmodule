@@ -10,6 +10,7 @@ ByteDance  = type: http, behavior: classical, url: https://raw.githubusercontent
 Kingsoft   = type: http, behavior: classical, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Kingsoft/Kingsoft.list, interval: 86400
 TikTok     = type: http, behavior: classical, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list, interval: 86400
 yuan-set   = type: http, behavior: classical, url: https://raw.githubusercontent.com/ptntp/self-rule/refs/heads/main/surge/reject.list, interval: 86400
+douyinvod  = type: http, behavior: classical, url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/rule/Douyin.list
 
 [Rule]
 RULE-SET,BiliBili,REJECT
@@ -20,3 +21,4 @@ RULE-SET,ByteDance,REJECT
 RULE-SET,Kingsoft,REJECT
 RULE-SET,TikTok,REJECT
 RULE-SET,yuan-set,REJECT
+RULE-SET,douyinvod,REJECT
