@@ -2,15 +2,15 @@
 #!desc = 多個規則清單合併，統一走 REJECT
 
 [RuleSet]
-BiliBili   = type: http, behavior: classical, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list, interval: 86400
-CCTV       = type: http, behavior: classical, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/CCTV/CCTV.list, interval: 86400
-ChinaMedia = type: http, behavior: classical, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMedia/ChinaMedia.list, interval: 86400
-Tencent    = type: http, behavior: classical, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Tencent/Tencent.list, interval: 86400
-ByteDance  = type: http, behavior: classical, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ByteDance/ByteDance.list, interval: 86400
-Kingsoft   = type: http, behavior: classical, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Kingsoft/Kingsoft.list, interval: 86400
-TikTok     = type: http, behavior: classical, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list, interval: 86400
-douyinvod  = type: http, behavior: classical, url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/rule/Douyin.list, interval: 86400
-yuan-set   = type: http, behavior: classical, url: https://raw.githubusercontent.com/ptntp/self-rule/refs/heads/main/surge/reject.list, interval: 86400
+BiliBili   = https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list
+CCTV       = https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/CCTV/CCTV.list
+ChinaMedia = https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMedia/ChinaMedia.list
+Tencent    = https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Tencent/Tencent.list
+ByteDance  = https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ByteDance/ByteDance.list
+Kingsoft   = https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Kingsoft/Kingsoft.list
+TikTok     = https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list
+douyinvod  = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/rule/Douyin.list
+yuan-set   = https://raw.githubusercontent.com/ptntp/self-rule/refs/heads/main/surge/reject.list
 
 [Rule]
 RULE-SET,BiliBili,REJECT
@@ -20,5 +20,5 @@ RULE-SET,Tencent,REJECT
 RULE-SET,ByteDance,REJECT
 RULE-SET,Kingsoft,REJECT
 RULE-SET,TikTok,REJECT
-RULE-SET,yuan-set,REJECT
 RULE-SET,douyinvod,REJECT
+RULE-SET,yuan-set,REJECT
