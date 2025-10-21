@@ -11,7 +11,6 @@ Kingsoft   = https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/mast
 TikTok     = https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list
 douyinvod  = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/rule/Douyin.list
 yuan-set   = https://raw.githubusercontent.com/ptntp/self-rule/refs/heads/main/surge/reject.list
-jkgtw      = https://raw.githubusercontent.com/jkgtw/Surge/refs/heads/master/Modules/ADList.sgmodule
 
 [Rule]
 RULE-SET,BiliBili,REJECT
@@ -23,4 +22,3 @@ RULE-SET,Kingsoft,REJECT
 RULE-SET,TikTok,REJECT
 RULE-SET,douyinvod,REJECT
 RULE-SET,yuan-set,REJECT
-RULE-SET,jkgtw,REJECT
