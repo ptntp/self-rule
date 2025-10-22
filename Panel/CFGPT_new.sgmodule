@@ -1,0 +1,16 @@
+#!name=ChatGPT Panel
+#!desc=Chatgpt可用區域檢測隨可用性更換ICON
+#!author=keywos wuhu_zz 整點貓咪
+# 參數說明
+# 可選參數"iconerr=xxx" 不支持chatgpt時的圖標，內容為任意有效的 SF Symbol Name
+# 可選參數"icon=xxx" 支持chatgpt時的圖標，內容為任意有效的 SF Symbol Name，如 bolt.horizontal.circle.fill，詳細可以下載app https://apps.apple.com/cn/app/sf-symbols-browser/id1491161336
+# 可選參數"color=xxx" 當使用 icon 字段時，可傳入 color 字段控製圖標顏色，字段內容為顏色的 HEX 編碼。如：color=#007aff
+# 如：argument=icon=lasso.and.sparkles&iconerr=xmark.seal.fill&icon-color=#D7431E
+
+
+[Panel]
+
+# GPT
+CFGPT = script-name=CFGPT,update-interval=-1
+[Script]
+CFGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_2.js,argument=icon=lasso.and.sparkles&iconerr=xmark.seal.fill&icon-color=#336FA9&iconerr-color=#D65C51
