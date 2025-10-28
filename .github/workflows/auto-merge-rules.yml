@@ -29,10 +29,10 @@ jobs:
           fi
           
           # 創建輸出文件頭部
-          echo "# 中國媒體攔截規則集（自動合併）" > reject.list
-          echo "# 自動生成時間: $(TZ='Asia/Taipei' date '+%Y-%m-%d %H:%M:%S %Z')" >> reject.list
-          echo "# 規則源配置: china_reject.list" >> reject.list
-          echo "" >> reject.list
+          echo "# 中國媒體攔截規則集（自動合併）" > china-media-reject.list
+          echo "# 自動生成時間: $(TZ='Asia/Taipei' date '+%Y-%m-%d %H:%M:%S %Z')" >> china-media-reject.list
+          echo "# 規則源配置: china_reject.list" >> china-media-reject.list
+          echo "" >> china-media-reject.list
           
           # 讀取配置文件並提取有效的 URL
           echo "📋 正在讀取規則源配置..."
@@ -46,8 +46,8 @@ jobs:
           # 計算 URL 數量
           URL_COUNT=$(echo "$URLS" | wc -l)
           echo "✅ 找到 $URL_COUNT 個規則源"
-          echo "" >> reject.list
-          echo "# 本次合併包含 $URL_COUNT 個規則源：" >> reject.list
+          echo "" >> china-media-reject.list
+          echo "# 本次合併包含 $URL_COUNT 個規則源：" >> china-media-reject.list
           
           # 創建臨時文件
           > temp.list
@@ -62,7 +62,7 @@ jobs:
             RULE_NAME=$(echo "$url" | sed 's/.*\/\([^\/]*\)\.list/\1/')
             
             echo "⬇️  正在下載: $RULE_NAME"
-            echo "#   - $RULE_NAME ($url)" >> reject.list
+            echo "#   - $RULE_NAME ($url)" >> china-media-reject.list
             
             # 下載並處理規則
             if curl -fsSL --connect-timeout 10 --max-time 30 "$url" 2>/dev/null | grep -v '^#' | grep -v '^$' >> temp.list; then
@@ -76,15 +76,15 @@ jobs:
             
           done <<< "$URLS"
           
-          echo "" >> reject.list
-          echo "# 下載成功: $SUCCESS_COUNT 個 | 下載失敗: $FAIL_COUNT 個" >> reject.list
-          echo "" >> reject.list
+          echo "" >> china-media-reject.list
+          echo "# 下載成功: $SUCCESS_COUNT 個 | 下載失敗: $FAIL_COUNT 個" >> china-media-reject.list
+          echo "" >> china-media-reject.list
           
           # 去重並排序
           echo "🔄 正在去重和排序..."
           BEFORE_COUNT=$(wc -l < temp.list)
-          sort -u temp.list >> reject.list
-          AFTER_COUNT=$(grep -v '^#' reject.list | grep -v '^$' | wc -l)
+          sort -u temp.list >> china-media-reject.list
+          AFTER_COUNT=$(grep -v '^#' china-media-reject.list | grep -v '^$' | wc -l)
           DUPLICATE_COUNT=$((BEFORE_COUNT - AFTER_COUNT))
           
           # 清理臨時文件
@@ -102,11 +102,11 @@ jobs:
           echo ""
           
           # 在文件末尾添加統計信息（註釋形式）
-          echo "" >> reject.list
-          echo "# ====== 統計信息 ======" >> reject.list
-          echo "# 最終規則數: $AFTER_COUNT 條" >> reject.list
-          echo "# 重複已去除: $DUPLICATE_COUNT 條" >> reject.list
-          echo "# 下載成功率: $SUCCESS_COUNT/$URL_COUNT" >> reject.list
+          echo "" >> china-media-reject.list
+          echo "# ====== 統計信息 ======" >> china-media-reject.list
+          echo "# 最終規則數: $AFTER_COUNT 條" >> china-media-reject.list
+          echo "# 重複已去除: $DUPLICATE_COUNT 條" >> china-media-reject.list
+          echo "# 下載成功率: $SUCCESS_COUNT/$URL_COUNT" >> china-media-reject.list
           
           if [ $FAIL_COUNT -gt 0 ]; then
             echo "⚠️  警告：有 $FAIL_COUNT 個規則源下載失敗"
@@ -118,13 +118,13 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add reject.list
+          git add china-media-reject.list
           
           # 檢查是否有變更
           if git diff --staged --quiet; then
             echo "📝 沒有變更，跳過提交"
           else
-            RULE_COUNT=$(grep -v '^#' reject.list | grep -v '^$' | wc -l)
+            RULE_COUNT=$(grep -v '^#' china-media-reject.list | grep -v '^$' | wc -l)
             TIMESTAMP=$(TZ='Asia/Taipei' date '+%Y-%m-%d %H:%M:%S')
             git commit -m "🤖 Auto update: $RULE_COUNT rules - $TIMESTAMP"
             git push
@@ -137,8 +137,8 @@ jobs:
           echo "### 📊 執行摘要" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           
-          if [ -f "reject.list" ]; then
-            RULE_COUNT=$(grep -v '^#' reject.list | grep -v '^$' | wc -l)
+          if [ -f "china-media-reject.list" ]; then
+            RULE_COUNT=$(grep -v '^#' china-media-reject.list | grep -v '^$' | wc -l)
             echo "✅ **合併成功**" >> $GITHUB_STEP_SUMMARY
             echo "- 最終規則數: **$RULE_COUNT** 條" >> $GITHUB_STEP_SUMMARY
             echo "- 更新時間: $(TZ='Asia/Taipei' date '+%Y-%m-%d %H:%M:%S %Z')" >> $GITHUB_STEP_SUMMARY
