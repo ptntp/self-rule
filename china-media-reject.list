@@ -1,5 +1,5 @@
 # 中國媒體攔截規則集（自動合併）
-# 自動生成時間: 2025-11-03 13:02:50 CST
+# 自動生成時間: 2025-11-04 13:02:51 CST
 # 規則源配置: china_reject.list
 
 
@@ -1256,6 +1256,7 @@ DOMAIN-SUFFIX,toutiaowap.net
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,trae.cn
 DOMAIN-SUFFIX,trae.com.cn
+DOMAIN-SUFFIX,tscarsosts.mystrikingly.com
 DOMAIN-SUFFIX,ttbyte.cn
 DOMAIN-SUFFIX,ttbyte.com
 DOMAIN-SUFFIX,ttbyte.net
@@ -1630,6 +1631,6 @@ USER-AGENT,xiami*
 USER-AGENT,youku*
 
 # ====== 統計信息 ======
-# 最終規則數: 1612 條
+# 最終規則數: 1613 條
 # 重複已去除: 495 條
 # 下載成功率: 9/9
