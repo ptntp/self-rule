@@ -1,0 +1,66 @@
+[Proxy]
+WG_IN_Windscribe = Wireguard, section-name = WG_IN_Windscribe
+WG_TR_PureVPN = Wireguard, section-name = WG_TR_PureVPN
+WG_NG_ProtonVPN = Wireguard, section-name = WG_NG_ProtonVPN
+WG_ID_Windscribe = Wireguard, section-name = WG_ID_Windscribe
+WG_JP_Windscribe = Wireguard, section-name = WG_JP_Windscribe
+WG_JP_PureVPN = Wireguard, section-name = WG_JP_PureVPN
+WG_PK_ProtonVPN = Wireguard, section-name = WG_PK_ProtonVPN
+WG_US_ProtonVPN = Wireguard, section-name = WG_US_ProtonVPN
+
+[WireGuard WG_IN_Windscribe]
+private-key = eIOFaxVPhMgYMQ91HjufqBoNENAatk4kh1eDfVNxOlI=
+self-ip = 10.13.13.12
+dns-server = 8.8.8.8
+mtu = 1280
+peer = (public-key = pM9EIa4jUkUgtZ+gyfT573DB0HvnwjSGLKa8asptXzM=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = penny-home-pve.dcone.app:8204, preshared-key = n5AO0qXJOgrM4NFVjzludnJbAYvps5N0UAiN23v/1Ls=)
+
+[WireGuard WG_TR_PureVPN]
+private-key = wNBH7JHrt7Z+Ezfv5UT41JlNRvKOAXoa9sBXS2vBdnE=
+self-ip = 10.13.13.12
+dns-server = 8.8.8.8
+mtu = 1280
+peer = (public-key = 4PktEonU8yvVIFoHS/IDXRtMADiCLhfKKTTd4hY5KUs=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = penny-home-pve.dcone.app:8205, preshared-key = vWEFOGIzzhDO0Pct/46uuFYAYJKgRWih2CHLPb8Z3yw=)
+
+[WireGuard WG_NG_ProtonVPN]
+private-key = EAr6PWc5eDoITweBlFN7ZIJS8V8XgsTmVMuBUAaq/3o=
+self-ip = 10.13.13.12
+dns-server = 8.8.8.8
+mtu = 1280
+peer = (public-key = zPD11ezHcNPUjekahktAGNyj2lQ8jm8zh0/ym2zJYEI=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = penny-home-pve.dcone.app:8206, preshared-key = +VpFLAl7Uoex1HXH3eiDqntMijRFsQCwo2ykp5D9EJ4=)
+
+[WireGuard WG_ID_Windscribe]
+private-key = gCWGqvUu30vfF0O7BCAZUzszZuz48z3aTWLH72nKKnQ=
+self-ip = 10.13.13.12
+dns-server = 8.8.8.8
+mtu = 1280
+peer = (public-key = KR0yDWB2CTC10yGdL6B/u95v1zIIuWxTePDn6Jw8rnE=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = penny-home-pve.dcone.app:8203, preshared-key = S0i6s4/NdM+S77D9js7X1qPfFnITiRc+MHhn7DAuDB4=)
+
+[WireGuard WG_JP_Windscribe]
+private-key = YPIiGgiFj1y96N9kIxN0bRr7XdnEtFn5o74n1qh74ns=
+self-ip = 10.13.13.12
+dns-server = 8.8.8.8
+mtu = 1280
+peer = (public-key = mvQCVH/HgECDfN3Sw/0BJfDB1TlUS7NVXIfiSL+n7mM=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = penny-home-pve.dcone.app:8201, preshared-key = tqACWNrsoUhFXdzt+9t/lf34kZhwi5XRB70lWVM81IM=)
+
+[WireGuard WG_JP_PureVPN]
+private-key = eJIkncqL1xq67eLCR7YYePKAGZgUK+bQ+vHOFRoBGEk=
+self-ip = 10.13.13.12
+dns-server = 8.8.8.8
+mtu = 1280
+peer = (public-key = GUeevT6hIAUpp+t8FGNpAnLV4Vk8E+VuNVKVLe4VvGQ=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = penny-home-pve.dcone.app:8200, preshared-key = OvOYj+I6mdpstjaBmE1J/Z9tPVY2QrwzYw2l/nfPnaw=)
+
+[WireGuard WG_PK_ProtonVPN]
+private-key = 0CLQykuwS66/8jeF9OjtX7LvvNlRVFs2mWjguiE1xXM=
+self-ip = 10.13.13.13
+dns-server = 8.8.8.8
+mtu = 1280
+peer = (public-key = VanwRubjWhE8rVa8p5YJKmUheGRbQGjCu0c7FWk+9Sc=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = penny-home-pve.dcone.app:8207, preshared-key = Qu+tfnMMr/dZ/vcDmIoZE3VTm+595Ovv0qj7zCi24a8=)
+
+[WireGuard WG_US_ProtonVPN]
+private-key = kPr1zIWxGZBCzlBnsgO/okkzdgw+oQjXZfhcfPfgTHo=
+self-ip = 10.13.13.13
+dns-server = 8.8.8.8
+mtu = 1280
+peer = (public-key = Tg8dFf51in1YSs5Lg2zuZYPwKgMM6mxK0THyH1SIhy4=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = penny-home-pve.dcone.app:8208, preshared-key = wR4aPAEvXUNfeaLHRFQDYqVawCjogne9ogtic3fcBHw=)
+TinyURL
