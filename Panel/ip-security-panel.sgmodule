@@ -1,0 +1,10 @@
+#!name=IP Security Monitor
+#!desc=顯示 IP 風險評分、類型、原生/廣播判定、代理策略和入口/出口 IP 資訊
+#!author=HotKids&ChatGPT
+#!system=ios
+
+[Panel]
+ip-security-panel = script-name=ip-security,update-interval=600
+
+[Script]
+ip-security = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/ptntp/self-rule/refs/heads/main/Panel/ip-security.js
