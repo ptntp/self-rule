@@ -1,0 +1,12 @@
+#!name=Streaming & AIGC Service Monitor
+#!desc=檢測 Netflix、Disney+、YouTube Premium、Spotify、ChatGPT、Claude、Gemini API 的可用性
+#!author=HotKids & ChatGPT
+#!system=ios
+#!arguments=geminiapikey:null
+#!arguments-desc=geminiapikey: Google Gemini API Key（可選，填寫後啟用 Gemini API 檢測。💡 本腳本僅調用免費的 models.list 接口，不會產生任何費用）
+
+[Panel]
+media-check-panel = type=generic,script-name=media-check,update-interval=600,icon=play.circle.fill
+
+[Script]
+media-check = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/HotKids/Rules/master/Surge/Module/Scripts/media-check.js,argument=geminiapikey={{{geminiapikey}}}
