@@ -48,6 +48,8 @@
 ||dad-api.dcard.tw^
 ||xlate.dcard.tw^
 ||apps.apple.com/app/id1235601864^$important
+||roblox.com^
+||apps.apple.com/app/id431946152^
 
 # ESign
 # ||yyyue.xyz^
