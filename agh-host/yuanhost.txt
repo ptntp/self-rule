@@ -9,7 +9,8 @@
 # 其他自用
 @@||shopback.go2cloud.org^$important
 @@||shopback.com.tw^
-
+@@||misskey.io^
+@@||nya.one^
 @@||showtimes.com.tw^$important
 @@||ts.line-apps.com^$important
 @@||line.me^$important
