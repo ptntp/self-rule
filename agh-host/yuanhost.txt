@@ -18,6 +18,8 @@
 @@||formula1.com^$important
 @@||moptt.tw^$important
 @@||management.mxroute.com^
+@@||gamer.com.tw^
+@@||bahamut.akamaized.net^
 
 @@||giffgaff.com^
 @@||shopback.com^
