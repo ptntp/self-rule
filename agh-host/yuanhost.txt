@@ -69,6 +69,17 @@
 ||thenewslens.com^
 ||jcolor.com.tw^
 
+# 以色列廠商透過智慧電視應用程式植入後門
+||proxyjs.brdtnet.com^
+||clientsdk.brdtnet.com^
+||proxyjs.bright-sdk.com^
+||clientsdk.bright-sdk.com^
+||perr.bright-sdk.com^
+||proxyjs.luminatinet.com^
+||bright-sdk.com^
+||brdtnet.com^
+||luminatinet.com^
+
 # 小紅書
 ||xiaohongshu.com^
 ||fengkongcloud.com
