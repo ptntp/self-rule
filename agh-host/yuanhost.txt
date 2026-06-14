@@ -21,6 +21,10 @@
 @@||gamer.com.tw^
 @@||bahamut.akamaized.net^
 
+# Apple
+@@||mask-h2.icloud.com^
+@@||mask.icloud.com^
+
 @@||giffgaff.com^
 @@||shopback.com^
 @@||shopback.sg^
