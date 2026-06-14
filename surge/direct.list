@@ -53,6 +53,8 @@ DOMAIN-SUFFIX,e-land.gov.tw
 DOMAIN-SUFFIX,tyemid.gov.tw
 DOMAIN-SUFFIX,taichung.gov.tw
 DOMAIN-SUFFIX,hccepb.gov.tw
+DOMAIN,mask-h2.icloud.com
+DOMAIN,mask.icloud.com
 
 # Twitter
 DOMAIN-SUFFIX,tapbots.com
