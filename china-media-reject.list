@@ -1,5 +1,5 @@
 # 中國媒體攔截規則集（自動合併）
-# 自動生成時間: 2026-07-07 16:15:05 CST
+# 自動生成時間: 2026-07-08 15:22:52 CST
 # 規則源配置: china_reject.list
 
 
@@ -14,7 +14,7 @@
 #   - Douyin (https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/rule/Douyin.list)
 #   - own (https://raw.githubusercontent.com/ptntp/self-rule/refs/heads/main/own.list)
 
-# 下載成功: 9 個 | 下載失敗: 0 個
+# 下載成功: 8 個 | 下載失敗: 1 個
 
 DOMAIN,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
@@ -75,15 +75,11 @@ DOMAIN,dldir1.qq.com
 DOMAIN,iacc.qq.com
 DOMAIN,ins-eeww7kom.ias.tencent-cloud.net
 DOMAIN,ios.video.mpush.qq.com
-DOMAIN,lf16-effectcdn.byteeffecttos-g.com
-DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,mam.netease.com
 DOMAIN,moo.qq.com
 DOMAIN,p-bstarstatic.akamaized.net
 DOMAIN,p.bstarstatic.com
-DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN,rdelivery.qq.com
-DOMAIN,trae-api-sg.mchost.guru
 DOMAIN,ts.qq.com
 DOMAIN,upos-bstar-mirrorakam.akamaized.net
 DOMAIN,upos-bstar1-mirrorakam.akamaized.net
@@ -377,7 +373,6 @@ DOMAIN-SUFFIX,bytedance.org
 DOMAIN-SUFFIX,bytedanceapi.com
 DOMAIN-SUFFIX,bytedanceoss.net
 DOMAIN-SUFFIX,bytedancevod.com
-DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,bytedns.net
 DOMAIN-SUFFIX,bytedns1.com
 DOMAIN-SUFFIX,bytedns2.com
@@ -385,12 +380,10 @@ DOMAIN-SUFFIX,bytednsdoc.com
 DOMAIN-SUFFIX,byteeffecttos.com
 DOMAIN-SUFFIX,bytefcdn.com
 DOMAIN-SUFFIX,bytefcdnrd.com
-DOMAIN-SUFFIX,bytegecko-i18n.com
 DOMAIN-SUFFIX,bytegecko.com
 DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,bytegslb.com
 DOMAIN-SUFFIX,byteimg.com
-DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,bytelb.net
 DOMAIN-SUFFIX,bytelove.cn
 DOMAIN-SUFFIX,bytemaimg.com
@@ -406,7 +399,6 @@ DOMAIN-SUFFIX,bytexservice.com
 DOMAIN-SUFFIX,c30tu.cn
 DOMAIN-SUFFIX,c4vxy.cn
 DOMAIN-SUFFIX,c8bjj.cn
-DOMAIN-SUFFIX,capcut.com
 DOMAIN-SUFFIX,capturetheflag.fun
 DOMAIN-SUFFIX,cctv.cn
 DOMAIN-SUFFIX,cctv.com
@@ -823,7 +815,6 @@ DOMAIN-SUFFIX,iqiyiedge.com
 DOMAIN-SUFFIX,iqiyiedge.net
 DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,ishengdian.cn
-DOMAIN-SUFFIX,isnssdk.com
 DOMAIN-SUFFIX,italentclc.com
 DOMAIN-SUFFIX,itc.cn
 DOMAIN-SUFFIX,iuhtg8.com
@@ -952,7 +943,6 @@ DOMAIN-SUFFIX,luyou360.cn
 DOMAIN-SUFFIX,maidouke.com
 DOMAIN-SUFFIX,maoercdn.com
 DOMAIN-SUFFIX,marscode.cn
-DOMAIN-SUFFIX,marscode.com
 DOMAIN-SUFFIX,marshotspot.com
 DOMAIN-SUFFIX,mcbbs.net
 DOMAIN-SUFFIX,mfm.video.qq.com
@@ -977,7 +967,6 @@ DOMAIN-SUFFIX,music.163.com
 DOMAIN-SUFFIX,music.qq.com
 DOMAIN-SUFFIX,music.tc.qq.com
 DOMAIN-SUFFIX,music.xiaomi.com
-DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,muyewx.com
 DOMAIN-SUFFIX,myfiles.com.cn
 DOMAIN-SUFFIX,myhuaweicloud.cn
@@ -1211,13 +1200,6 @@ DOMAIN-SUFFIX,thenewslens.com
 DOMAIN-SUFFIX,theworld.cn
 DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokcdn-us.com
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,tiktokd.net
-DOMAIN-SUFFIX,tiktokd.org
-DOMAIN-SUFFIX,tiktokmusic.app
-DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,tiquality.cn
 DOMAIN-SUFFIX,tiquality.com.cn
 DOMAIN-SUFFIX,toscdn.com
@@ -1253,7 +1235,6 @@ DOMAIN-SUFFIX,toutiaovod.com
 DOMAIN-SUFFIX,toutiaowap.cn
 DOMAIN-SUFFIX,toutiaowap.com
 DOMAIN-SUFFIX,toutiaowap.net
-DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,trae.cn
 DOMAIN-SUFFIX,trae.com.cn
 DOMAIN-SUFFIX,tscarsosts.mystrikingly.com
@@ -1261,7 +1242,6 @@ DOMAIN-SUFFIX,ttbyte.cn
 DOMAIN-SUFFIX,ttbyte.com
 DOMAIN-SUFFIX,ttbyte.net
 DOMAIN-SUFFIX,ttjisu.com
-DOMAIN-SUFFIX,ttwebview.com
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,tvcc.cn
 DOMAIN-SUFFIX,tvcc.com.cn
@@ -1631,6 +1611,6 @@ USER-AGENT,xiami*
 USER-AGENT,youku*
 
 # ====== 統計信息 ======
-# 最終規則數: 1613 條
-# 重複已去除: 495 條
-# 下載成功率: 9/9
+# 最終規則數: 1593 條
+# 重複已去除: 482 條
+# 下載成功率: 8/9
