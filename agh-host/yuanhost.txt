@@ -21,6 +21,7 @@
 @@||gamer.com.tw^
 @@||bahamut.akamaized.net^
 @@||stream.twatc.net^
+@@||casio.com^
 
 # Apple
 @@||mask-h2.icloud.com^
