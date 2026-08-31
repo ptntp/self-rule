@@ -20,6 +20,7 @@
 @@||management.mxroute.com^
 @@||gamer.com.tw^
 @@||bahamut.akamaized.net^
+@@||stream.twatc.net^
 
 # Apple
 @@||mask-h2.icloud.com^
