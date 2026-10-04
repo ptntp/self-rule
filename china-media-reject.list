@@ -1,5 +1,5 @@
 # 中國媒體攔截規則集（自動合併）
-# 自動生成時間: 2026-10-03 18:08:01 CST
+# 自動生成時間: 2026-10-04 18:48:46 CST
 # 規則源配置: china_reject.list
 
 
@@ -389,6 +389,7 @@ DOMAIN-SUFFIX,bytegecko-i18n.com
 DOMAIN-SUFFIX,bytegecko.com
 DOMAIN-SUFFIX,bytegoofy.com
 DOMAIN-SUFFIX,bytegslb.com
+DOMAIN-SUFFIX,bytehwm.com
 DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,bytelb.net
@@ -1631,6 +1632,6 @@ USER-AGENT,xiami*
 USER-AGENT,youku*
 
 # ====== 統計信息 ======
-# 最終規則數: 1613 條
+# 最終規則數: 1614 條
 # 重複已去除: 495 條
 # 下載成功率: 9/9
