@@ -1,5 +1,5 @@
 # 中國媒體攔截規則集（自動合併）
-# 自動生成時間: 2026-10-15 17:31:15 CST
+# 自動生成時間: 2026-10-16 17:24:07 CST
 # 規則源配置: china_reject.list
 
 
@@ -408,6 +408,9 @@ DOMAIN-SUFFIX,c30tu.cn
 DOMAIN-SUFFIX,c4vxy.cn
 DOMAIN-SUFFIX,c8bjj.cn
 DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-SUFFIX,capcutapi.us
+DOMAIN-SUFFIX,capcutstatic.com
 DOMAIN-SUFFIX,capturetheflag.fun
 DOMAIN-SUFFIX,cctv.cn
 DOMAIN-SUFFIX,cctv.com
@@ -1632,6 +1635,6 @@ USER-AGENT,xiami*
 USER-AGENT,youku*
 
 # ====== 統計信息 ======
-# 最終規則數: 1614 條
+# 最終規則數: 1617 條
 # 重複已去除: 495 條
 # 下載成功率: 9/9
