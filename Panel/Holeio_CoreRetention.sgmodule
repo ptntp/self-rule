@@ -1,0 +1,19 @@
+#!name=Hole.io 測試改寫（玩法/留存/造型/時間/計分/金幣）
+#!desc=本機攔截 remote-settings-v2.voodoo-tech.io 的 /api/settings：改寫回應(核心玩法/留存/造型解鎖/關卡時間/掉落計分/金幣)並改寫請求的 level 參數。實際數值在 Holeio_CoreRetention.js 的 CONFIG 區塊編輯。僅供自己裝置測試。
+#!system=ios
+#!category=Gaming
+
+[URL Rewrite]
+# 把「送出給伺服器」的 level 參數改成 5（只改回報值，影響伺服器發哪個版本的設定；
+# 不會改你實際遊戲進度/存檔）。要改成別的等級就改下面這個 5。header 旗標=原地改寫、不轉址。
+^(https:\/\/remote-settings-v2\.voodoo-tech\.io\/api\/settings\?.*?[?&])level=[^&]*(.*)$ $1level=5$2 header
+
+[Script]
+# requires-body=true 才拿得到回應內容；max-size 要大於回應大小(此 API 約 151KB)，故設 1MB。
+# script-path 兩種填法擇一：
+#   (A) 本機：把 Holeio_CoreRetention.js 放進 iCloud 雲碟的 Surge/Scripts/ 後，用檔名參照(下方預設)。
+#   (B) 線上(較穩)：把 .js 放到你自己的 GitHub/Gist raw 連結，改成該 https 網址。
+HoleioCoreRetention = type=http-response,pattern=^https:\/\/remote-settings-v2\.voodoo-tech\.io\/api\/settings\?(?:[^&#]*&)*bundle_id=com\.nguyenvh\.holeio(?:&|$),script-path=Holeio_CoreRetention.js,requires-body=true,max-size=1048576
+
+[MITM]
+hostname = %APPEND% remote-settings-v2.voodoo-tech.io
