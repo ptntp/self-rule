@@ -46,7 +46,7 @@ DOMAIN-SUFFIX,porkbun.com
 DOMAIN-SUFFIX,twatc.net
 DOMAIN-SUFFIX,casio.com
 DOMAIN-SUFFIX,berriz.in
-DOMAIN-SUFFIX,analytics.controld.com
+DOMAIN,analytics.controld.com
 DOMAIN,logs.netflix.com
 DOMAIN,mask.icloud.com
 
