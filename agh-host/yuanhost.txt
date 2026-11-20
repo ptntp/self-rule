@@ -24,6 +24,9 @@
 @@||casio.com^
 @@||berriz.in^
 
+# ControlD
+@@||*.analytics.controld.com^
+
 # Apple
 @@||mask-h2.icloud.com^
 @@||mask.icloud.com^
